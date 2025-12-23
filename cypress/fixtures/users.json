@@ -1,0 +1,10 @@
+{
+    "cliente": {
+        "email": "joao.silva@email.com",
+        "password": "Senha@123"
+    },
+    "lojista": {
+        "email": "gerente@lojademo.com",
+        "password": "Loja@123"
+    }
+}

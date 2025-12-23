@@ -1,0 +1,17 @@
+{
+    "id": "595afd02-3573-4ffa-af3a-30ad8611509c",
+    "code": "o2dkwgY",
+    "status": "available",
+    "purchaseValue": "3.00",
+    "offer": {
+        "id": "61551b29-baaf-40c9-81b6-44bbe714e6a0",
+        "name": "Refrigerante 2 Litros",
+        "photo": "https://storage.googleapis.com/openflowapp.firebasestorage.app/offers/photos/3be57dc8-5237-498d-a8c1-c51f5b0f1334.webp",
+        "endDate": "2025-12-31T00:00",
+        "status": "active"
+    },
+    "customer": {
+        "id": "00f9c85f-e611-43d3-a13e-a15341fbec95",
+        "name": "João da Silva"
+    }
+}
