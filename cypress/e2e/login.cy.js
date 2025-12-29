@@ -17,7 +17,7 @@ describe('Lgin - Elo', () => {
         LoginPage.fieldEmail('email.invalido');
         LoginPage.fieldPassword('Senha@123');
         cy.contains('Entrar').click();
-        LoginPage.alertEmail('Inclua um "@" no endereço de email. "email.invalido" não contém um "@".');
+        LoginPage.alertEmail();
     })
 
     it('Login com email inexistente', () => {

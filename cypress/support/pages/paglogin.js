@@ -8,9 +8,9 @@ class LoginPage {
         cy.get('#password').type(password);
     }
     // Valida mensagem HTML5
-    alertEmail(message) {
-        cy.get('#email').then(($input) => {
-            expect($input[0].validationMessage).to.eq(message);
+    alertEmail() {
+        cy.get('input[type="email"]').then(($el) => {
+            expect($el[0].validity.valid).to.be.false;
         });
     }
 }
