@@ -1,0 +1,76 @@
+{
+  "buscas": {
+    "valida": {
+      "termo": "loja",
+      "descricao": "Termo que sempre retorna resultados"
+    },
+    "semResultados": {
+      "termo": "asdfjaskjdf",
+      "descricao": "Termo que não retorna nenhum resultado"
+    },
+    "caracteresEspeciais": {
+      "termo": "@#$%*&()",
+      "descricao": "Caracteres especiais para teste de segurança"
+    },
+    "xss": {
+      "termo": "<script>alert('test')</script>",
+      "descricao": "Tentativa de XSS"
+    },
+    "sqlInjection": {
+      "termo": "'; DROP TABLE lojas; --",
+      "descricao": "Tentativa de SQL Injection"
+    },
+    "vazia": {
+      "termo": "",
+      "descricao": "Busca com campo vazio"
+    }
+  },
+  "ordenacao": {
+    "nomeAZ": {
+      "valor": "nome-az",
+      "descricao": "Nome: A → Z"
+    },
+    "nomeZA": {
+      "valor": "nome-za",
+      "descricao": "Nome: Z → A"
+    },
+    "bairroAZ": {
+      "valor": "bairro-az",
+      "descricao": "Bairro: A → Z"
+    },
+    "bairroZA": {
+      "valor": "bairro-za",
+      "descricao": "Bairro: Z → A"
+    }
+  },
+  "mensagens": {
+    "semResultados": "Nenhuma loja encontrada com os filtros aplicados."
+  },
+  "credenciais": {
+    "clienteValido": {
+      "email": "cliente5-0-34428@testecarga.com",
+      "senha": "123456"
+    }
+  },
+  "urls": {
+    "base": "/fecomercio-anapolis-demo/lojas",
+    "loja": "/fecomercio-anapolis-demo/loja/"
+  },
+  "viewports": {
+    "mobile": {
+      "nome": "iPhone X",
+      "width": 375,
+      "height": 812
+    },
+    "tablet": {
+      "nome": "iPad",
+      "width": 768,
+      "height": 1024
+    },
+    "desktop": {
+      "nome": "MacBook 15",
+      "width": 1440,
+      "height": 900
+    }
+  }
+}
